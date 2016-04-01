@@ -1,0 +1,17 @@
+{ "questions": [{
+    "subject": "Dogs and Air",
+    "author": "Francisco Sans",
+    "date": "4/1/16",
+    "content": "Did you ever notice that when you blow in a dog's face, he gets mad at you but when you take him on a car ride, he sticks his head out of the window?"
+  }, {
+    "subject": "Life",
+    "author": "Arthur Dent",
+    "date": "5/13/81",
+    "content": "What is the meaning of life?"
+  }, {
+    "subject": "The Leading Brand",
+    "author": "Philosoraptor",
+    "date": "8/1/15",
+    "content": "If it's 10x better than the leading brand, why isn't it the leading brand?"
+  }]
+}
