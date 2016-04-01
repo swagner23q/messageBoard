@@ -7,12 +7,10 @@
 
   <h1>Answers</h1>
   <ul>
-  {{#each model.answers as |answer|}}
-    <li>{{answer.author}} - posted on: {{answer.date}}</li>
-    <li>{{answer.response}}</li>
-    <li></li>
-  {{/each}}
-</ul>
+    {{#each model.answers as |answer|}}
+      <li>{{answer.author}} - posted on: {{answer.date}}</li>
+      <li>{{answer.response}}</li>
+    {{/each}}
+  </ul>
 {{new-answer save5="save6"}}
-{{update-answer answer=answer update="update"}}
 </div>
