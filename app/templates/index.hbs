@@ -2,6 +2,9 @@
 
 <ul>
   {{#each model as |question|}}
-     {{question-tile question=question}}
+     {{question-tile question=question update="update"}}
+     <!-- This is sending and calling information to and from the question-tile -->
   {{/each}}
 </ul>
+
+{{new-question save2="save3"}}

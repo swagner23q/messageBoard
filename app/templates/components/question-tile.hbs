@@ -1,3 +1,4 @@
-<li>{{question.subject}} - Asked by {{question.author}}</li>
+<li>{{#link-to 'question' question.id}}{{question.subject}} - Asked by {{question.author}} {{/link-to}}</li>
 
+{{update-question question=question update="update"}}
 <!-- This is where I am showing the object/model information question on the index page -->
