@@ -1,4 +1,6 @@
-<li>{{#link-to 'question' question.id}}{{question.subject}} - Asked by {{question.author}} {{/link-to}}</li>
+<div class="questionTile">
+  {{#link-to 'question' question.id}}{{question.subject}} - Asked by {{question.author}} {{/link-to}}
 
-{{update-question question=question update="update"}}
-<!-- This is where I am showing the object/model information question on the index page -->
+  {{update-question question=question update="update"}}
+  <!-- This is where I am showing the object/model information question on the index page -->
+</div>

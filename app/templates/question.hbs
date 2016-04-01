@@ -1,16 +1,24 @@
-<div class="questionContainer">
-  <h1>{{model.question.subject}}</h1>
+<div class="questionAnswersContainer">
 
-  <p>Author: {{model.question.author}}</p>
-  <p>Posted On: {{model.question.date}}</p>
-  <p>{{model.question.content}}</p>
+  <div class="questionContainer">
+    <h1>{{model.question.subject}}</h1>
 
-  <h1>Answers</h1>
-  <ul>
+    <p><b>Author:</b> {{model.question.author}}</p>
+    <p><b>Posted On:</b> {{model.question.date}}</p>
+    <p>{{model.question.content}}</p>
+  </div>
+
+  <div class="answerContainer">
+    <h2>Worldly Responses</h2>
+    <p class="contribute">((Contribute your genius insight))</p>
     {{#each model.answers as |answer|}}
-      <li>{{answer.author}} - posted on: {{answer.date}}</li>
-      <li>{{answer.response}}</li>
+      <b>{{answer.author}}</b> - posted on: {{answer.date}}<br>
+      <div class="answerResponse"><p>{{answer.response}}</p>
+      </div>
     {{/each}}
-  </ul>
-{{new-answer save5="save6"}}
+    <div class="newQuestion">
+      {{new-answer save5="save6"}}
+    </div>
+  </div>
+
 </div>

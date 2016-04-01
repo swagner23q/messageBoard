@@ -1,0 +1,124 @@
+.overLord{
+  @include outer-container;
+  background-color: white;
+  border-radius: 1em 1em 0 0;
+  width: 95%;
+  height: 100vh;
+  padding: 2%;
+}
+
+.questionForm {
+
+  .content {
+    width: 25%;
+  }
+}
+.questionTile {
+  border: 1px double black;
+  border-radius: 1em;
+  padding: 2%;
+  width: 80%;
+  font-size: 2em;
+  margin-top: 3%;
+  a {
+    text-decoration: none;
+    color: green;
+    &:hover {
+      text-shadow: 1px 1px 2px black;
+    }
+  }
+  button {
+    margin-top: 1%;
+    background-color: purple;
+    color: white;
+    padding: 1%;
+    border-radius: 1em;
+    &:hover {
+      cursor: pointer;
+      box-shadow: 1px 1px 2px black;
+    }
+  }
+}
+.questionContainer {
+  border: 1px double black;
+  border-radius: 1em;
+  padding: 2%;
+  p {
+    font-size: 1.2em;
+    &:nth-child(4) {
+      padding: 2%;
+      text-align: center;
+      color: green;
+      font-size: 1.4em;
+    }
+  }
+}
+.answerContainer {
+  margin-left: 3%;
+  .answerResponse {
+   border-bottom: 1px dotted black;
+   width: 25%;
+   margin-bottom: 1%;
+   color: purple;
+   font-size: 1.2em;
+  }
+  .contribute {
+    font-size: 2em;
+    color: lighten(grey, 25%);
+    text-align: center;
+  }
+  button {
+    background-color: purple;
+    color: white;
+    padding: 1%;
+    border-radius: 1em;
+    &:hover {
+      cursor: pointer;
+      box-shadow: 1px 1px 2px black;
+    }
+  }
+}
+.questionForm {
+  margin-top: 5%;
+  width: 80%;
+  border: 1px double black;
+  border-radius: 1em;
+  padding: 2%;
+  .form-group {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    input {
+      border-radius: 2px;
+      height: 30px;
+    }
+  }
+  button {
+    width: 20%;
+    font-size: 1.3em;
+    background-color: #414852;
+    color: white;
+    padding: 1%;
+    border-radius: 1em;
+    &:hover {
+      cursor: pointer;
+      box-shadow: 1px 1px 2px black;
+    }
+  }
+}
+.newQuestion {
+  border-radius: 1em;
+  border: 1px solid black;
+  padding: 2%;
+  .form-group {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    input {
+      border-radius: 2px;
+      height: 30px;
+    }
+    #response {
+      height: 70px;
+      width: 50%;
+    }
+  }
+}
