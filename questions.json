@@ -1,23 +1,18 @@
-{ "questions": [{
-    "subject": "Dogs and Air",
-    "author": "Francisco Sans",
-    "date": "4/1/16",
-    "content": "Did you ever notice that when you blow in a dog's face, he gets mad at you but when you take him on a car ride, he sticks his head out of the window?"
+{
+  "questions" : [ {
+    "author" : "Francisco Sans",
+    "content" : "Did you ever notice that when you blow in a dog's face, he gets mad at you but when you take him on a car ride, he sticks his head out of the window?",
+    "date" : "4/1/16",
+    "subject" : "Dogs and Air"
   }, {
-    "subject": "Life",
-    "author": "Arthur Dent",
-    "date": "5/13/81",
-    "content": "What is the meaning of life?"
+    "author" : "Arthur Dent",
+    "content" : "What is the meaning of life?",
+    "date" : "5/13/81",
+    "subject" : "Life and Like it"
   }, {
-    "subject": "The Leading Brand",
-    "author": "Philosoraptor",
-    "date": "8/1/15",
-    "content": "If it's 10x better than the leading brand, why isn't it the leading brand?"
-  }],
-
-  "answers": [{
-    "author": "Everett",
-    "date": "the day after",
-    "response": "Because things"
-    }]
+    "author" : "Philosoraptor",
+    "content" : "If it's 10x better than the leading brand, why isn't it the leading brand?",
+    "date" : "8/1/15",
+    "subject" : "The Leading Brand"
+  } ]
 }

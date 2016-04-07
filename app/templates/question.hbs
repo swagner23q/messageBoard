@@ -1,11 +1,11 @@
 <div class="questionAnswersContainer">
 
   <div class="questionContainer">
-    <h1>{{model.question.subject}}</h1>
+    <h1>{{model.subject}}</h1>
 
-    <p><b>Author:</b> {{model.question.author}}</p>
-    <p><b>Posted On:</b> {{model.question.date}}</p>
-    <p>{{model.question.content}}</p>
+    <p><b>Author:</b> {{model.author}}</p>
+    <p><b>Posted On:</b> {{model.date}}</p>
+    <p>{{model.content}}</p>
   </div>
 
   <div class="answerContainer">
@@ -16,8 +16,9 @@
       <div class="answerResponse"><p>{{answer.response}}</p>
       </div>
     {{/each}}
+
     <div class="newQuestion">
-      {{new-answer save5="save6"}}
+      {{new-answer question=model save5="save6"}}
     </div>
   </div>
 
