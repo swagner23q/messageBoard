@@ -8,7 +8,6 @@
 }
 
 .questionForm {
-
   .content {
     width: 25%;
   }
@@ -56,8 +55,10 @@
 .answerContainer {
   margin-left: 3%;
   .answerResponse {
-   border-bottom: 1px dotted black;
-   width: 25%;
+   padding-left: 3%;
+   border-radius: .2em;
+   border-bottom: 3px double black;
+   width: 65%;
    margin-bottom: 1%;
    color: purple;
    font-size: 1.2em;
@@ -106,8 +107,6 @@
   }
 }
 .newQuestion {
-  border-radius: 1em;
-  border: 1px solid black;
   padding: 2%;
   .form-group {
     margin-top: 2%;
